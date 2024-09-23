@@ -1,0 +1,72 @@
+.navbar-nav .dropdown-menu {
+  display: none;
+  z-index: 10000;
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+  display: block;
+  margin-top: 20px;
+
+}
+
+.nav-link:hover {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+
+
+
+}
+
+
+.nav-link {
+  font-family: Arial, sans-serif;
+  padding: 4px 48px 0px 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mega-menu {
+  width: 600px;
+}
+
+.mega-menu h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.mega-menu .dropdown-item {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.fas {
+  font-size: 21px;
+  font-weight: 100;
+}
+.navbar-brand a{
+  text-decoration: none;
+}
+
+
+
+
+/* Custom styles for quantity control */
+.btn-outline-primary {
+  border-color: #007bff; /* Primary color border */
+  color: #007bff; /* Primary color text */
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+/* Custom styles for total price */
+.text-primary {
+  color: #007bff; /* Primary color */
+}
+
+.fs-3 {
+  font-size: 1.75rem; /* Larger font size */
+}
